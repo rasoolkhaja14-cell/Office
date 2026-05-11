@@ -1,6 +1,7 @@
 package com.ltm.paypilot.payment_intent.service;
 
 import com.ltm.paypilot.payment_intent.domain.PaymentIntent;
+import com.ltm.paypilot.payment_intent.domain.PaymentStatus;
 import com.ltm.paypilot.payment_intent.dto.CreatePaymentIntentRequest;
 import com.ltm.paypilot.payment_intent.dto.PaymentIntentResponse;
 import com.ltm.paypilot.payment_intent.repository.IdempotencyStore;
